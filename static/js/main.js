@@ -1,22 +1,22 @@
-// 示例博客文章数据
+// Example blog post data
 const blogPosts = [
     {
-        title: '使用Bootstrap构建响应式网站',
-        summary: '本文将介绍如何使用Bootstrap框架快速构建一个响应式的网站。我们将从基础开始，逐步深入Bootstrap的栅格系统、组件和工具类的使用方法。',
+        title: 'Building Responsive Websites with Bootstrap',
+        summary: 'This article will introduce how to quickly build a responsive website using the Bootstrap framework. We will start from the basics and gradually explore Bootstrap\'s grid system, components, and utility classes.',
         date: '2024-03-15',
-        category: '技术文章'
+        category: 'Technical Articles'
     },
     {
-        title: '2024年值得学习的编程语言',
-        summary: '随着技术的不断发展，编程语言也在不断更新迭代。本文将分析2024年最受欢迎的编程语言，帮助你做出正确的学习选择。',
+        title: 'Programming Languages Worth Learning in 2024',
+        summary: 'As technology continues to evolve, programming languages are constantly updating and iterating. This article will analyze the most popular programming languages in 2024 to help you make the right learning choices.',
         date: '2024-03-10',
-        category: '技术文章'
+        category: 'Technical Articles'
     },
     {
-        title: '我的读书心得',
-        summary: '最近读完了几本很有意思的书，在这里分享一下我的读书心得和感悟。希望能够帮助到同样热爱阅读的朋友们。',
+        title: 'My Reading Reflections',
+        summary: 'I recently finished reading several interesting books. Here I would like to share my reading thoughts and insights. Hope this helps fellow book lovers.',
         date: '2024-03-05',
-        category: '读书笔记'
+        category: 'Reading Notes'
     }
 ];
 
@@ -35,7 +35,7 @@ function renderBlogPosts() {
                         <small class="text-muted">${post.date}</small>
                         <span class="badge bg-secondary">${post.category}</span>
                     </div>
-                    <a href="#" class="btn btn-primary mt-3">阅读全文</a>
+                    <a href="#" class="btn btn-primary mt-3">Read More</a>
                 </div>
             </div>
         `;
